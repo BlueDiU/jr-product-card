@@ -39,7 +39,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "jrm-product-card",
+  "name": "jr-product-card-rts",
   "author": "Josue Rivas",
   "module": "dist/jr-product-card.esm.js",
   "size-limit": [
