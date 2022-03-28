@@ -53,7 +53,7 @@ export function ProductCard({
 
   return (
     <Provider value={{ counter, increaseBy, product, maxCount }}>
-      <div className={`${styles.productCard} ${className}`} style={style}>
+      <section className={`${styles.productCard} ${className}`} style={style}>
         {children({
           count: counter,
           maxCount,
@@ -62,7 +62,7 @@ export function ProductCard({
           increaseBy,
           reset,
         })}
-      </div>
+      </section>
     </Provider>
   );
 }
